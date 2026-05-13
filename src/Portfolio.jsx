@@ -8,6 +8,7 @@ import Works from './Components/Works/Works'
 import Experience from './Components/Experience/Experience'
 import Contact from './Components/Contact/Contact'
 import Background from './Components/Background/Background'
+import BlurBlob from './BlurBlob'
 
 const Portfolio = () => {
   return (
