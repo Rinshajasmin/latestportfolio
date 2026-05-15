@@ -8,7 +8,7 @@ export default function About() {
         {/* LEFT CONTENT */}
         <div className="space-y-6 sm:space-y-8 relative z-10 text-center lg:text-left order-2 lg:order-1">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-            I build
+            Build
             <br />
             Scalable Web Apps
             <br />
@@ -16,23 +16,47 @@ export default function About() {
               with
             </span>
             <span className="bg-linear-to-r from-orange-500 to-orange-300 bg-clip-text text-transparent">
-              MERN Stack.
+              Rinsha Jasmin
             </span>
           </h1>
 
-          <p className="text-gray-400 text-base sm:text-lg leading-7 sm:leading-9 max-w-2xl mx-auto lg:mx-0">
-            Passionate about building performant, modern and user-centric web
-            applications using React.js, Node.js, Express.js and MongoDB.
-          </p>
+       <p className="text-gray-400 text-base sm:text-lg leading-7 sm:leading-9 max-w-2xl mx-auto lg:mx-0">
+  Hi. I'm{" "}
+
+  <span
+    className="
+      text-xl sm:text-2xl
+      font-semibold
+      bg-linear-to-r
+      from-orange-500
+      to-orange-300
+      
+      bg-clip-text
+      text-transparent
+      drop-shadow-[0_0_10px_rgba(255,140,26,0.45)]
+    "
+  >
+    MERN Stack Developer
+  </span>
+
+  , passionate about building performant, modern and user-centric web
+  applications using React.js, Node.js, Express.js and MongoDB.
+</p>
 
           {/* BUTTONS */}
           <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center justify-center lg:justify-start gap-4 sm:gap-6 pt-2 sm:pt-4">
             <button className="bg-linear-to-r from-orange-500 to-orange-400 hover:scale-105 transition duration-300 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold shadow-[0_0_40px_rgba(255,140,26,0.3)]">
               View My Work →
             </button>
-            <button className="border border-gray-700 hover:border-[#FF8C1A] hover:text-[#FF8C1A] transition duration-300 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold text-gray-300">
-              Download CV
-            </button>
+
+            <a
+              href="./ResumeRinshaJasmin.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-gray-700 hover:border-[#FF8C1A] hover:text-[#FF8C1A] transition duration-300 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold text-gray-300"
+            >
+              View My Resume →
+            </a>
           </div>
         </div>
 

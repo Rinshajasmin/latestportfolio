@@ -17,25 +17,77 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
+import mcLogo from './assets/tech_logo/mc.png';
+import vercelLogo from './assets/tech_logo/vercel.png'
 
-// Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
-// Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
 
-// Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+// // Education Section Logo's
+// import glaLogo from './assets/education_logo/gla_logo.png';
+// import bsaLogo from './assets/education_logo/bsa_logo.png';
+// import vpsLogo from './assets/education_logo/vps_logo.png';
+
+// // Project Section Logo's
+// import githubdetLogo from './assets/work_logo/github_det.png';
+// import csprepLogo from './assets/work_logo/cs_prep.png';
+// import movierecLogo from './assets/work_logo/movie_rec.png';
+// import taskremLogo from './assets/work_logo/task_rem.png';
+// import npmLogo from './assets/work_logo/npm.png';
+// import webverLogo from './assets/work_logo/web_dig.png';
+// import cmLogo from './assets/work_logo/cm.png';
+// import imagesearchLogo from './assets/work_logo/image_search.png';
+// import removebgLogo from './assets/work_logo/remove_bg.png';
+
+export const SkillsInfo = [
+  {
+    title: 'Frontend',
+    skills: [
+      { name: 'HTML', logo: htmlLogo },
+      { name: 'CSS', logo: cssLogo },
+      
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'React JS', logo: reactjsLogo },
+      
+      { name: 'Redux', logo: reduxLogo },
+
+      { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      
+      { name: 'Bootstrap', logo: bootstrapLogo },
+    ],
+  },
+  {
+    title: 'Backend',
+    skills: [
+      
+      { name: 'Node JS', logo: nodejsLogo },
+      { name: 'Express JS', logo: expressjsLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'Firebase', logo: firebaseLogo },
+      { name: 'PostgreSQL', logo: postgreLogo },
+    ],
+  },
+  {
+    title: 'Languages',
+    skills: [
+    
+      
+      
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
+    ],
+  },
+  {
+    title: 'Tools',
+    skills: [
+      { name: 'Git', logo: gitLogo },
+      { name: 'GitHub', logo: githubLogo },
+      { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Postman', logo: postmanLogo },
+      { name: 'Compass', logo: mcLogo },
+      { name: 'Vercel', logo: vercelLogo },
+      { name: 'Figma', logo: figmaLogo },
+    ],
+  },
+];
+
 
