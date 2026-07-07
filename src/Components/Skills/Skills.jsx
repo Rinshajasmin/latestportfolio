@@ -5,7 +5,7 @@ import { SkillsInfo } from "../../constants";
 const Skills = () => (
   <section
     id="skills"
-    className="pt-12 pb-20 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom"
+    className="pt-12 pb-20 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom scroll-mt-16"
   >
     {/* Section Title */}
     <div className="text-center mb-8">

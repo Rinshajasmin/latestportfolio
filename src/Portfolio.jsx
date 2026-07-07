@@ -19,7 +19,6 @@ const Portfolio = () => {
             <Navbar/>
             <About/>
             <Skills/>
-            <Education/>
             <Experience/>
             <Education/>
             <Works/>

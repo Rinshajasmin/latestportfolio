@@ -1,4 +1,15 @@
 export default function About() {
+
+  const scrollToWorks = () => {
+  const section = document.getElementById("works");
+
+  if (section) {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+};
   return (
     <section
       id="about"
@@ -45,12 +56,12 @@ export default function About() {
 
           {/* BUTTONS */}
           <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center justify-center lg:justify-start gap-4 sm:gap-6 pt-2 sm:pt-4">
-            <button className="bg-linear-to-r from-orange-500 to-orange-400 hover:scale-105 transition duration-300 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold shadow-[0_0_40px_rgba(255,140,26,0.3)]">
+            <button onClick={scrollToWorks} className="bg-linear-to-r from-orange-500 to-orange-400 hover:scale-105 transition duration-300 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold shadow-[0_0_40px_rgba(255,140,26,0.3)]">
               View My Work →
             </button>
 
             <a
-              href="./ResumeRinshaJasmin.pdf"
+              href="./ResumeRinshaJasmin.pdf.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-700 hover:border-[#FF8C1A] hover:text-[#FF8C1A] transition duration-300 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold text-gray-300"

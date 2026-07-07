@@ -18,21 +18,30 @@ const Navbar = () => {
   const handleMenuItemClick = (sectionId) => {
     setActiveSection(sectionId);
     setIsOpen(false);
+
+     const section = document.getElementById(sectionId);
+
+  if (section) {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
   };
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
-    { id: "education", label: "education" },
     { id: "experience", label: "Experience" },
+    { id: "education", label: "Education" },
     { id: "works", label: "Works" },
   ];
 
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${
-        isScrolled
-          ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
-          : "bg-transparent"
+       isScrolled
+  ? "bg-black/20 backdrop-blur-xl border-b border-white/10 shadow-lg"
+  : "bg-transparent"
       }`}
     >
       <div className=" text-white py-5 flex justify-between items-center">
@@ -44,15 +53,15 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-8 text-gray-300">
           {menuItems.map((item) => (
             <li
-              key={item.id}
-              className={
-                'cursor-pointer hover:text-[#FF8C1A] ${activeSection === item.id?"text-[#FF8C1A]":""}'
-              }
-            >
-              <button onClick={() => handleMenuItemClick(item.id)}>
-                {item.label}
-              </button>
-            </li>
+  key={item.id}
+  className={`cursor-pointer hover:text-[#FF8C1A] ${
+    activeSection === item.id ? "text-[#FF8C1A]" : ""
+  }`}
+>
+  <button onClick={() => handleMenuItemClick(item.id)}>
+    {item.label}
+  </button>
+</li>
           ))}
         </ul>
 
