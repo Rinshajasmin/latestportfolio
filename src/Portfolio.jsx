@@ -15,6 +15,7 @@ const Portfolio = () => {
     <div className='bg-[#050414]'>
         <div></div>
          <Background/>
+         
         <div className='relative pt-20'>
             <Navbar/>
             <About/>
