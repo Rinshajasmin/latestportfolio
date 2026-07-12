@@ -38,6 +38,42 @@ const projects = [
 
     github: "https://github.com/Rinshajasmin/ReduxCrudApp",
   },
+  {
+  title: "Portfolio Website",
+  image: "/projects/portfolio.png",
+
+  description:
+"Designed and developed a fully responsive personal portfolio website using React.js, Vite, and Tailwind CSS to showcase my projects, technical skills, education, and professional experience. Implemented smooth scrolling navigation, interactive particle backgrounds, glassmorphism UI components, and modern animations to create an engaging user experience. Optimized the application for performance, accessibility, and responsiveness across all screen sizes. Integrated visually appealing layouts while maintaining a consistent design language throughout the website. Deployed it on vercel.",
+  tech: [
+    "React.js",
+    "Tailwind CSS",
+    "JavaScript",
+    "Vite",
+    "Vercel"
+  ],
+
+  live: "https://rinshajasmin-portfolio.vercel.app/",
+  github: "https://github.com/Rinshajasmin/latestportfolio",
+},
+{
+  title: "Tesla Car Accessories Website",
+  image: "/projects/tesla.png",
+
+  description:
+    "Designed and developed a modern, fully responsive business website for Tesla Car Accessories using Next.js and Tailwind CSS. Implemented smooth section-based navigation, interactive service showcases, responsive masonry gallery with image lightbox, animated brand marquee, embedded Google Maps, and contact information. Focused on performance, responsive design, SEO-friendly architecture, reusable component structure, and a premium user experience while deploying the application on Vercel.",
+
+  tech: [
+    "Next.js",
+    "React.js",
+    "Tailwind CSS",
+    "TypeScript",
+    "Framer Motion",
+    "Vercel",
+  ],
+
+  live: "https://tesla-car-accessories.vercel.app/",
+  github: "https://github.com/Rinshajasmin/tesla-car-accessories",
+}
 ];
 
 const Projects = () => {
